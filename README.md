@@ -41,3 +41,30 @@
 *You've learned about variables, right? Now its time to practice them. You need to take an integer A, a very big integer B, a floating value C and a character D as input and output them serially.*
 ### 5. Problem Statement was
 *You will be given a positive integer N, you need to print from 1 to N and besides the value, print Yes or No. Print Yes if the value is divisible by 5 and print No otherwise.*
+
+## 6.5 Practice Module
+### 1. Problem Statement was
+*Given a lowercase alphabet character. You have to print the next character in the alphabet.*
+
+### 2. Problem Statement was
+One day, Ali Baba had an easy puzzle that he couldn't solve. The puzzle consisted of 4
+ numbers and his task was to check whether he could get the fourth number using arithmetic operators (+,−,×) between the other three numbers; so that each operator is used only once.
+### 3. Problem Statement was
+Given a number N. Print all the divisors of N in ascending order.
+### 4. Problem Statement was
+Timon has a
+ candies and his friend, Pumbaa, has b
+ candies, so Pumbaa asked Timon to tell him the value of a−b
+. However, Timon will tell him the value of a−b
+ if the value is ≥0
+; otherwise, he will lie and say 0
+. Since it was a hard task for Timon, he's asking for your help.
+
+Given two numbers a and b, find the answer.
+### 5. Problem Statement was
+A number of two digits is lucky if one of its digits is divisible by the other.
+
+For example, 39, 82, and 55 are lucky, while 79 and 43 are not.
+
+Given a number between 10 and 99, determine whether it is lucky or not.
+### 6. Problem Statement was
