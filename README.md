@@ -77,3 +77,21 @@ If the king has n
  eyes, m
  mouths and k
  bodies, what is the largest number of Katryoshkas he can make?
+
+ ## 7.5 Practice Module
+### 1. Problem Statement was
+Given a number N and an array A of N numbers. Print the absolute summation of these numbers.
+
+absolute value : means to remove any negative sign in front of a number .
+
+EX : |-5| = 5 , |7| = 7
+
+### 2. Problem Statement was
+Given a number N and an array A of N numbers. Determine if the number X exists in array A or not and print its position (0-index).
+
+Note: X may be found once or more than once and may not be found.
+
+### 3. Problem Statement was
+### 4. Problem Statement was
+### 5. Problem Statement was
+### 6. Problem Statement was
