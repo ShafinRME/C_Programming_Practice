@@ -92,6 +92,11 @@ Given a number N and an array A of N numbers. Determine if the number X exists i
 Note: X may be found once or more than once and may not be found.
 
 ### 3. Problem Statement was
+Given a number N and an array A of N numbers. Print the array after doing the following operations:
+
+* Replace every positive number by 1.
+* Replace every negative number by 2.
 ### 4. Problem Statement was
+Given a number N and an array A of N numbers. Print all array positions that store a number less than or equal to 10 and the number stored in that position.
 ### 5. Problem Statement was
 ### 6. Problem Statement was
