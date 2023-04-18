@@ -103,3 +103,4 @@ Given a number N and an array A of N numbers. Print the lowest number and its po
 
 Note: if there are more than one answer print first one's position.
 ### 6. Problem Statement was
+Given a number N and an array A of N numbers. Print the array in a reversed order.
