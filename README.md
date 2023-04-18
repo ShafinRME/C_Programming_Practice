@@ -99,4 +99,7 @@ Given a number N and an array A of N numbers. Print the array after doing the fo
 ### 4. Problem Statement was
 Given a number N and an array A of N numbers. Print all array positions that store a number less than or equal to 10 and the number stored in that position.
 ### 5. Problem Statement was
+Given a number N and an array A of N numbers. Print the lowest number and its position.
+
+Note: if there are more than one answer print first one's position.
 ### 6. Problem Statement was
