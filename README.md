@@ -78,7 +78,7 @@ If the king has n
  mouths and k
  bodies, what is the largest number of Katryoshkas he can make?
 
- ## 7.5 Practice Module
+## 7.5 Practice Module
 ### 1. Problem Statement was
 Given a number N and an array A of N numbers. Print the absolute summation of these numbers.
 
@@ -104,3 +104,24 @@ Given a number N and an array A of N numbers. Print the lowest number and its po
 Note: if there are more than one answer print first one's position.
 ### 6. Problem Statement was
 Given a number N and an array A of N numbers. Print the array in a reversed order.
+
+## 10.5 Practice Module
+### 1. Problem Statement was
+Given a number N and an array A of N numbers. Print the array after doing the following operations:
+
+* Find minimum number in these numbers.
+* Find maximum number in these numbers.
+* Swap minimum number with maximum number.
+
+### 2. Problem Statement was
+Given a string S. Print the origin string if it's not too long otherwise, print the special abbreviation.
+
+Note: The string is called too long, if its length is strictly more than 10 characters. If the string is too long then you have to print the string in the following manner:
+
+* Print the first character in the string.
+* Print number of characters between the first and the last characters.
+* Print the last character in the string.
+For example: "localization" will be "l10n", and "internationalization" will be "i18n".
+### 3. Problem Statement was
+### 4. Problem Statement was
+### 5. Problem Statement was
