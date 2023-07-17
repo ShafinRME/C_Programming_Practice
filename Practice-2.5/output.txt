@@ -1,2 +1,2 @@
-Enter the amount : 
-I am going to buy Gucci Bag 
+Please enter a integer number:
+ 0 is Zero

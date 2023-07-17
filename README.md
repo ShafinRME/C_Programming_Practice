@@ -120,7 +120,7 @@ Note: The string is called too long, if its length is strictly more than 10 char
 
 * Print the first character in the string.
 * Print number of characters between the first and the last characters.
-* Print the last character in the string.
+* Print the last character in the string.\
 For example: "localization" will be "l10n", and "internationalization" will be "i18n".
 ### 3. Problem Statement was
 ### 4. Problem Statement was
