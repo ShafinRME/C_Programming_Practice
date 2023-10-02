@@ -2,26 +2,43 @@
 
 int main()
 {
-    long long int a, b, c, count = 0, sum;
-    scanf("%lld %lld %lld", &a, &b, &c);
-    if (a >= 1 && b >= 1 && c >= 1)
+    long long int eyes, mouths, bodies, sovinors;
+
+    scanf("%lld %lld %lld", &eyes, &mouths, &bodies);
+    if (eyes > 0 && bodies > 0)
     {
-        while (sum != 2)
+        if (eyes <= mouths && eyes <= bodies)
         {
-            a = a - 1;
-            b = b - 1;
-            c = c - 1;
-            count++;
-            a = a - 2;
-            b = b - 1;
-            c = c - 1;
-            count++;
-            a = a - 2;
-            c = c - 1;
-            count++;
-            sum = a + b + c;
+            sovinors = eyes;
+            printf("%lld\n", sovinors);
         }
-        printf("%lld", count);
+        else if (mouths <= eyes && mouths <= bodies)
+        {
+            sovinors = mouths;
+            eyes = eyes - mouths;
+            bodies = bodies - mouths;
+            if (bodies >= (eyes / 2))
+            {
+                sovinors = sovinors + (eyes / 2);
+                printf("%lld\n", sovinors);
+            }
+            else
+            {
+                sovinors = sovinors + bodies;
+                printf("%lld\n", sovinors);
+            }
+        }
+        else
+        {
+            sovinors = sovinors + bodies;
+            printf("%lld\n", sovinors);
+        }
     }
+    else
+    {
+        sovinors = 0;
+        printf("%lld\n", sovinors);
+    }
+
     return 0;
 }

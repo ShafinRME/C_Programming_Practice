@@ -2,12 +2,13 @@
 
 int main()
 {
-    int t, p, sub;
-    scanf("%d %d", &t, &p);
-    sub = t - p;
-    if (sub >= 0)
+    int num1, num2, subtraction;
+
+    scanf("%d %d", &num1, &num2);
+    if (num1 - num2 >= 0)
     {
-        printf("%d\n", sub);
+        subtraction = num1 - num2;
+        printf("%d\n", subtraction);
     }
     else
     {

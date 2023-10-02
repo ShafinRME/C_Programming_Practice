@@ -2,11 +2,13 @@
 
 int main()
 {
-    int num, a, b;
+    int num, num1, num2;
     scanf("%d", &num);
-    a = num % 10;
-    b = num / 10;
-    if (a % b == 0 || b % a == 0)
+
+    num1 = num % 10;
+    num2 = num / 10;
+
+    if (num1 % num2 == 0 || num2 % num1 == 0)
     {
         printf("YES\n");
     }
