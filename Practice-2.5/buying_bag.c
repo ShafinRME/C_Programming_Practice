@@ -3,7 +3,6 @@
 int main()
 {
     int taka;
-    printf("Enter the amount : \n");
     scanf("%d", &taka);
     if (taka >= 10000)
     {
