@@ -3,19 +3,19 @@
 int main()
 {
     int num;
-    printf("Please enter a integer number:\n ");
+
     scanf("%d", &num);
     if (num > 0)
     {
-        printf("%d is a Positive Number", num);
+        printf("positive\n");
     }
     else if (num < 0)
     {
-        printf("%d is a Negative number", num);
+        printf("negative\n");
     }
     else
     {
-        printf("%d is Zero", num);
+        printf("zero\n");
     }
     return 0;
 }

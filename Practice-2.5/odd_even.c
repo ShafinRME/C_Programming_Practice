@@ -4,13 +4,15 @@ int main()
 {
     int num;
     scanf("%d", &num);
+
     if (num % 2 == 0)
     {
-        printf("%d is a EVEN number", num);
+        printf("even\n");
     }
     else
     {
-        printf("%d is a ODD number", num);
+        printf("odd\n");
     }
+
     return 0;
 }
