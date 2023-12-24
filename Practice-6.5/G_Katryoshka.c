@@ -2,43 +2,47 @@
 
 int main()
 {
-    long long int eyes, mouths, bodies, sovinors;
+    long long int avatar, eyes, mouths, bodies, min;
 
     scanf("%lld %lld %lld", &eyes, &mouths, &bodies);
-    if (eyes > 0 && bodies > 0)
+
+    if (eyes <= mouths && eyes <= bodies)
     {
-        if (eyes <= mouths && eyes <= bodies)
+        min = eyes;
+    }
+    else if (mouths <= eyes && mouths <= bodies)
+    {
+        min = mouths;
+    }
+    else
+    {
+        min = bodies;
+    }
+
+    eyes = eyes - min;
+    mouths = mouths - min;
+    bodies = bodies - min;
+    avatar = min;
+
+    if (eyes == 0 || bodies == 0)
+    {
+        printf("%lld\n", avatar);
+    }
+    else if (mouths == 0)
+    {
+        if (eyes >= 2 * bodies)
         {
-            sovinors = eyes;
-            printf("%lld\n", sovinors);
-        }
-        else if (mouths <= eyes && mouths <= bodies)
-        {
-            sovinors = mouths;
-            eyes = eyes - mouths;
-            bodies = bodies - mouths;
-            if (bodies >= (eyes / 2))
-            {
-                sovinors = sovinors + (eyes / 2);
-                printf("%lld\n", sovinors);
-            }
-            else
-            {
-                sovinors = sovinors + bodies;
-                printf("%lld\n", sovinors);
-            }
+            avatar = avatar + bodies;
+            printf("%lld\n", avatar);
         }
         else
         {
-            sovinors = sovinors + bodies;
-            printf("%lld\n", sovinors);
+            avatar = avatar + (eyes / 2);
+            printf("%lld\n", avatar);
         }
     }
     else
     {
-        sovinors = 0;
-        printf("%lld\n", sovinors);
     }
-
     return 0;
 }

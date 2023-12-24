@@ -2,17 +2,19 @@
 
 int main()
 {
-    char character;
-    scanf("%c", &character);
+    char letter;
 
-    if (character >= 97 && character < 122)
+    scanf("%c", &letter);
+    if (letter == 'z')
     {
-        character = character + 1;
-        printf("%c\n", character);
+        letter = 'a';
+        printf("%c\n", letter);
     }
-    else if (character == 122)
+    else
     {
-        printf("a\n");
+        letter = letter + 1;
+        printf("%c\n", letter);
     }
+
     return 0;
 }
