@@ -1,29 +1,34 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
+
 int main()
 {
-    int i, n, m, count = 1;
+    int i, n, count = 0, givenNum;
     scanf("%d", &n);
     int arr[n];
+
     for (i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
     }
-    scanf("%d", &m);
+
+    scanf("%d", &givenNum);
+
     for (i = 0; i < n; i++)
     {
-        if (m == arr[i])
+        if (givenNum == arr[i])
         {
             count++;
             printf("%d\n", i);
             break;
         }
-        else if (i == n - 1 && count == 1)
+        else
         {
-            printf("-1\n");
+            continue;
         }
     }
-
+    if (count == 0)
+    {
+        printf("-1\n");
+    }
     return 0;
 }
